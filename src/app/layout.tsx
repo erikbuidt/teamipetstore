@@ -40,7 +40,7 @@ export default function RootLayout({
 			<SEO />
 			<body className={`${nunito.variable} bg-white text-gray-800`}>
 				<Header />
-				<main>{children}</main>
+				<main className="">{children}</main>
 				<Footer />
 			</body>
 		</html>

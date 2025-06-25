@@ -36,17 +36,17 @@ const BookingSection = () => {
 		{
 			icon: <IoLocationSharp className="text-primary" />,
 			title: "Địa chỉ",
-			content: "123 Nguyễn Văn Linh, Quận 7, TP. Hồ Chí Minh",
+			content: "88 đường 11, Tân Kiểng, Quận 7, TP. Hồ Chí Minh",
 		},
 		{
 			icon: <MdOutlinePhone className="text-primary" />,
 			title: "Điện thoại",
-			content: "028 1234 5678",
+			content: "0909366197",
 		},
 		{
 			icon: <MdEmail className="text-primary" />,
 			title: "Email",
-			content: "info@petparadise.vn",
+			content: "teamipetstore@gmail.com",
 		},
 		{
 			icon: <CiClock1 className="text-primary" />,
@@ -267,13 +267,13 @@ const BookingSection = () => {
 						</div>
 
 						<div className="rounded-lg overflow-hidden shadow-md">
-							<img
-								src="https://public.readdy.ai/gen_page/map_placeholder_1280x720.png"
-								alt="Bản đồ Tea Mi Pet"
-								width={1280}
-								height={720}
-								className="w-full h-full object-cover"
-							/>
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.8443021042112!2d106.7047505761676!3d10.746480489400518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f0027587e51%3A0x5d3087e8c1e850b5!2sTea%20Mi%20Pet%20Store!5e0!3m2!1svi!2s!4v1750869204636!5m2!1svi!2s"
+								className="w-full"
+								height="450"
+								loading="lazy"
+								referrerpolicy="no-referrer-when-downgrade"
+							></iframe>
 						</div>
 					</div>
 				</div>

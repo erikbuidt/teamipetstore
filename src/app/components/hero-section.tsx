@@ -11,19 +11,17 @@ export default function HeroSection() {
 				backgroundPosition: "center",
 			}}
 		>
-			<div className="gradient-overlay absolute inset-0 bg-gradient-to-r from-white/95 via-white/80 to-transparent"></div>
 			<div className="container mx-auto px-4 py-16 relative z-10">
 				<div className="max-w-xl">
 					<FadeInStaggered className="" delay={500}>
-						<h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-							Thiên đường cho thú cưng của bạn
+						<h1 className="text-4xl md:text-5xl lg:text-6xl text-white font-bold mb-6 leading-tight">
+							Dịch vụ thú cưng toàn diện - mọi điều các bé cần
 						</h1>
 					</FadeInStaggered>
 
 					<FadeInStaggered className="" delay={500}>
-						<p className="text-lg md:text-xl mb-8">
-							Chúng tôi cung cấp dịch vụ chăm sóc chuyên nghiệp và đầy yêu
-							thương cho người bạn bốn chân của bạn.
+						<p className="text-lg md:text-xl mb-8 text-primary">
+							Chuẩn yêu – Chuẩn chất – Chuẩn cưng
 						</p>
 					</FadeInStaggered>
 

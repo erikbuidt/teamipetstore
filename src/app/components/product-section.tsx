@@ -152,7 +152,7 @@ const PetProductsSection = () => {
 					<span className="font-bold text-blue-600 text-lg">
 						{product.price}
 					</span>
-					<button
+					{/* <button
 						onClick={() => handleAddToCart(product.id)}
 						className="bg-primary text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-700 transition-all"
 						aria-label={`Add ${product.name} to cart`}
@@ -170,7 +170,7 @@ const PetProductsSection = () => {
 								d="M3 3h2l.4 2M7 13h10l4-8H5.4m0 0L7 13m0 0l-1.8 3.2M7 13l2.7-3.8M16 21a2 2 0 100-4 2 2 0 000 4zM9 21a2 2 0 100-4 2 2 0 000 4z"
 							/>
 						</svg>
-					</button>
+					</button> */}
 				</div>
 			</div>
 		</div>

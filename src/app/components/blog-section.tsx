@@ -15,10 +15,23 @@ const PetKnowledgeBlog = () => {
 			title: "5 Bước chăm sóc lông cho chó tại nhà đúng cách",
 			description:
 				"Hướng dẫn chi tiết cách chăm sóc lông cho chó tại nhà đảm bảo lông luôn mềm mượt và sạch sẽ.",
-			link: "https://readdy.ai/home/19ecda16-b980-4952-beb3-cd8e038b7512/d2607ce0-c3fb-4701-b280-d951303f35d5",
+			link: "/blog/cham-soc-thu-cung-trong-mua-he",
 		},
 		{
 			id: 2,
+			image:
+				"https://readdy.ai/api/search-image?query=a%20beautiful%20golden%20retriever%20dog%20playing%20in%20the%20garden%20on%20a%20sunny%20summer%20day%2C%20with%20water%20sprinklers%2C%20shade%20trees%2C%20and%20a%20small%20pool.%20The%20image%20should%20show%20a%20happy%20healthy%20dog%20enjoying%20summer%20activities%20while%20staying%20cool.%20High%20quality%20professional%20photography%20with%20natural%20lighting&width=1200&height=600&seq=1&orientation=landscape",
+			alt: "Cách chăm sóc lông cho chó",
+			category: "Chăm sóc",
+			categoryStyle: "bg-primary bg-opacity-10 text-white",
+			date: "25/06/2025",
+			title: "Chăm Sóc Thú Cưng Trong Mùa Hè: Những Điều Cần Lưu Ý",
+			description:
+				"Hướng dẫn chi tiết cách chăm sóc lông cho chó tại nhà đảm bảo lông luôn mềm mượt và sạch sẽ.",
+			link: "/blog/nam-buoc-cham-soc-long-cho-cho-tai-nha-dung-cach",
+		},
+		{
+			id: 3,
 			image:
 				"https://readdy.ai/api/search-image?query=A%20variety%20of%20healthy%20pet%20food%20options%20arranged%20neatly.%20Different%20types%20of%20premium%20dog%20and%20cat%20food.%20Educational%20image%20about%20pet%20nutrition.%20Clean%2C%20bright%20product%20photography.%20Focus%20on%20healthy%20ingredients&width=600&height=400&seq=17&orientation=landscape",
 			alt: "Dinh dưỡng cho thú cưng",
@@ -28,19 +41,6 @@ const PetKnowledgeBlog = () => {
 			title: "Dinh dưỡng cân bằng cho thú cưng theo từng giai đoạn",
 			description:
 				"Tìm hiểu về nhu cầu dinh dưỡng của thú cưng ở các giai đoạn khác nhau và cách xây dựng chế độ ăn hợp lý.",
-			link: "https://readdy.ai/home/19ecda16-b980-4952-beb3-cd8e038b7512/d2607ce0-c3fb-4701-b280-d951303f35d5",
-		},
-		{
-			id: 3,
-			image:
-				"https://readdy.ai/api/search-image?query=A%20person%20playing%20with%20a%20cat%20using%20interactive%20toys.%20Educational%20image%20showing%20proper%20pet%20enrichment.%20Clean%2C%20bright%20home%20environment.%20Focus%20on%20pet-owner%20bonding.%20Natural%20lighting&width=600&height=400&seq=18&orientation=landscape",
-			alt: "Hoạt động cho mèo",
-			category: "Hoạt động",
-			categoryStyle: "bg-primary bg-opacity-10 text-white",
-			date: "18/06/2025",
-			title: "10 Hoạt động giúp mèo vận động và phát triển trí tuệ",
-			description:
-				"Khám phá các hoạt động thú vị giúp mèo vận động, giảm stress và phát triển trí tuệ tốt hơn.",
 			link: "https://readdy.ai/home/19ecda16-b980-4952-beb3-cd8e038b7512/d2607ce0-c3fb-4701-b280-d951303f35d5",
 		},
 	];
@@ -68,11 +68,11 @@ const PetKnowledgeBlog = () => {
 								key={post.id}
 								className="bg-white rounded-lg shadow-md overflow-hidden"
 							>
-								<div className="relative w-full">
+								<div className="relative w-full h-[300px]">
 									<img
 										src={post.image}
 										alt={post.alt}
-										className="object-cover object-top"
+										className="object-cover h-full"
 									/>
 								</div>
 

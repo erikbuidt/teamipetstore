@@ -7,12 +7,12 @@ export function Header() {
 	const toggleMenu = () => setMenuOpen(!menuOpen);
 
 	const navLinks = [
-		{ href: "#home", label: "Trang chủ" },
-		{ href: "#about", label: "Giới thiệu" },
-		{ href: "#services", label: "Dịch vụ" },
-		{ href: "#products", label: "Sản phẩm" },
-		{ href: "#blog", label: "Blog" },
-		{ href: "#contact", label: "Liên hệ" },
+		{ href: "/", label: "Trang chủ" },
+		{ href: "/gioi-thieu", label: "Giới thiệu" },
+		{ href: "/dich-vu", label: "Dịch vụ" },
+		{ href: "/san-pham", label: "Sản phẩm" },
+		{ href: "/blog", label: "Blog" },
+		{ href: "/lien-he", label: "Liên hệ" },
 	];
 
 	return (
@@ -20,7 +20,7 @@ export function Header() {
 			<div className="container mx-auto px-4 py-4 flex items-center justify-between">
 				<div className="flex gap-2">
 					<img src="/images/logo.png" width={50} height={50} />
-					<a href="#" className="text-3xl text-primary font-pacifico">
+					<a href="/" className="text-3xl text-primary font-pacifico">
 						Tea Mi Pet
 					</a>
 				</div>
