@@ -23,12 +23,6 @@ const nunito = Nunito({
 	display: "swap",
 });
 
-const pacifico = Pacifico({
-	variable: "--font-pacifico",
-	weight: "400",
-	display: "swap",
-});
-
 export const metadata: Metadata = {
 	title: "Tea Mi Pet Store",
 	openGraph: {},
@@ -44,9 +38,7 @@ export default function RootLayout({
 	return (
 		<html lang="vi">
 			<SEO />
-			<body
-				className={`${nunito.variable} ${pacifico.variable} bg-white text-gray-800`}
-			>
+			<body className={`${nunito.variable} bg-white text-gray-800`}>
 				<Header />
 				<main>{children}</main>
 				<Footer />

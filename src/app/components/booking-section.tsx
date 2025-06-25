@@ -17,7 +17,7 @@ const BookingSection = () => {
 		message: "",
 	});
 
-	const handleInputChange = (e) => {
+	const handleInputChange = (e: any) => {
 		const { name, value } = e.target;
 		setFormData((prev) => ({
 			...prev,
@@ -25,7 +25,7 @@ const BookingSection = () => {
 		}));
 	};
 
-	const handleSubmit = (e) => {
+	const handleSubmit = (e: any) => {
 		e.preventDefault();
 		// Handle form submission here
 		console.log("Form submitted:", formData);
@@ -227,7 +227,7 @@ const BookingSection = () => {
 								<textarea
 									id="message"
 									name="message"
-									rows="4"
+									rows={4}
 									value={formData.message}
 									onChange={handleInputChange}
 									className="w-full px-4 py-3 border border-gray-300 rounded focus:border-primary focus:outline-none resize-vertical"

@@ -32,7 +32,7 @@ const TestimonialsSection = () => {
 		},
 	];
 
-	const StarRating = ({ rating }) => {
+	const StarRating = ({ rating }: any) => {
 		const fullStars = Math.floor(rating);
 		const hasHalfStar = rating % 1 !== 0;
 		const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
@@ -81,7 +81,7 @@ const TestimonialsSection = () => {
 		);
 	};
 
-	const TestimonialCard = ({ testimonial }) => (
+	const TestimonialCard = ({ testimonial }: any) => (
 		<div className="bg-white rounded-lg shadow-md p-6 transition-all duration-300 hover:shadow-lg hover:transform hover:scale-105">
 			<div className="flex items-center mb-4">
 				<img

@@ -111,12 +111,12 @@ const PetProductsSection = () => {
 		return product.category === activeFilter;
 	});
 
-	const handleAddToCart = (productId) => {
+	const handleAddToCart = (productId: any) => {
 		// Add your cart logic here
 		console.log(`Added product ${productId} to cart`);
 	};
 
-	const FilterButton = ({ filter, label, isActive, onClick }) => (
+	const FilterButton = ({ filter, label, isActive, onClick }: any) => (
 		<button
 			onClick={onClick}
 			className={`px-6 py-2 rounded-full font-medium whitespace-nowrap transition-all ${
@@ -127,7 +127,7 @@ const PetProductsSection = () => {
 		</button>
 	);
 
-	const ProductCard = ({ product }) => (
+	const ProductCard = ({ product }: any) => (
 		<div className="bg-white rounded-lg shadow-md overflow-hidden">
 			<img
 				src={product.image}
