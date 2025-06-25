@@ -272,7 +272,6 @@ const BookingSection = () => {
 								className="w-full"
 								height="450"
 								loading="lazy"
-								referrerpolicy="no-referrer-when-downgrade"
 							></iframe>
 						</div>
 					</div>

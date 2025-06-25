@@ -34,7 +34,6 @@ export default function Page() {
 						width={1200}
 						height={600}
 						className="w-full h-auto object-cover rounded-lg shadow-md"
-						priority
 					/>
 				</div>
 			</div>
