@@ -1,7 +1,7 @@
 export default function Page() {
 	return (
 		<div className="container xl:max-w-5xl mx-auto pt-24">
-			<div className="mb-8">
+			<div className="mb-8 p-4">
 				<h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
 					Chăm Sóc Thú Cưng Trong Mùa Hè: Những Điều Cần Lưu Ý
 				</h1>
@@ -195,6 +195,21 @@ export default function Page() {
 					trong mùa hè. Nếu bạn có bất kỳ lo ngại nào về sức khỏe của thú cưng,
 					đừng ngần ngại tham khảo ý kiến của bác sĩ thú y.
 				</p>
+				<div className="flex flex-col gap-4">
+					<div>
+						Hãy liên hệ ngay với <b>Tea Mi Pet Store</b> để được tư vấn và hỗ
+						trợ
+					</div>
+					<div>
+						Hotline: <b>0909366177</b>
+					</div>
+					<div>
+						Facebook: <b>Tea Mi Pet Store</b>
+					</div>
+					<div>
+						Địa chỉ:<b> 88 đường 11, Tân Kiểng, Quận 7, TP.HCM</b>
+					</div>
+				</div>
 			</article>
 		</div>
 	);

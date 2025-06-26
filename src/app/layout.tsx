@@ -23,9 +23,26 @@ const nunito = Nunito({
 	display: "swap",
 });
 
+const pacifico = Pacifico({
+	variable: "--font-pacifico",
+	subsets: ["latin"],
+	weight: ["400"],
+	display: "swap",
+});
+
 export const metadata: Metadata = {
 	title: "Tea Mi Pet Store",
 	openGraph: {},
+	authors: [
+		{
+			name: "Tea Mi Pet Store",
+			url: "https://teamipetstore.com",
+		},
+	],
+	publisher: "Tea Mi Pet Store",
+	robots: "index, follow",
+	keywords:
+		"pet store, cửa hàng thú cưng, spa chó mèo, khách sạn thú cưng, Tea Mi Pet Store, phụ kiện thú cưng Quận 7",
 	description:
 		"Tea Mi Pet Store cung cấp dịch vụ thú cưng quận 7 chuyên nghiệp: spa, khách sạn, chăm sóc, và cửa hàng thú cưng với đa dạng sản phẩm cho chó mèo tại Quận 7.",
 };
@@ -37,8 +54,12 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="vi">
-			<SEO />
-			<body className={`${nunito.variable} bg-white text-gray-800`}>
+			<link rel="canonical" href="https://teamipetstore.com" />
+			<link rel="url" href="https://teamipetstore.com" />
+
+			<body
+				className={`${nunito.variable} ${pacifico.variable} bg-white text-gray-800`}
+			>
 				<Header />
 				<main className="">{children}</main>
 				<Footer />

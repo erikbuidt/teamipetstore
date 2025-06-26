@@ -25,7 +25,7 @@ export default function HeroSection() {
 						</p>
 					</FadeInStaggered>
 
-					<div className="flex flex-col sm:flex-row gap-4">
+					<div className="flex flex-col sm:flex-row gap-8 sm:gap-4">
 						<FadeInStaggered direction="fade-right">
 							<a
 								href="#services"

@@ -9,17 +9,17 @@ export default function AboutSection() {
 	const stats = [
 		{
 			icon: <RiCalendarLine className="text-primary" />,
-			value: "8+",
+			value: "4+",
 			label: "Năm kinh nghiệm",
 		},
 		{
 			icon: <RiUserSmileLine className="text-primary" />,
-			value: "5000+",
+			value: "300+",
 			label: "Khách hàng hài lòng",
 		},
 		{
 			icon: <RiTeamLine className="text-primary" />,
-			value: "20+",
+			value: "2+",
 			label: "Chuyên viên",
 		},
 		{
@@ -35,7 +35,7 @@ export default function AboutSection() {
 				<div className="text-center mb-16">
 					<FadeInStaggered>
 						<h2 className="text-3xl md:text-4xl font-bold mb-4">
-							Về Tea Mi Pet
+							Về Tea Mi Pet Store
 						</h2>
 					</FadeInStaggered>
 

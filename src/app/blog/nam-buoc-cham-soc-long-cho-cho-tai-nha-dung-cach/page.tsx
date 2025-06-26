@@ -213,6 +213,21 @@ export default function Page() {
 					thú cưng của bạn. Kiên nhẫn và đều đặn là chìa khóa để có được kết quả
 					tốt nhất trong việc chăm sóc lông tại nhà.
 				</p>
+				<div className="flex flex-col gap-4">
+					<div>
+						Hãy liên hệ ngay với <b>Tea Mi Pet Store</b> để được tư vấn và hỗ
+						trợ
+					</div>
+					<div>
+						Hotline: <b>0909366177</b>
+					</div>
+					<div>
+						Facebook: <b>Tea Mi Pet Store - Dịch vụ thú cưng</b>
+					</div>
+					<div>
+						Địa chỉ:<b> 88 đường 11, Tân Kiểng, Quận 7, TP.HCM</b>
+					</div>
+				</div>
 			</article>
 		</div>
 	);

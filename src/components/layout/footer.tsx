@@ -10,7 +10,7 @@ const Footer = () => {
 							href="#"
 							className="text-3xl font-['Pacifico'] text-white mb-6 block"
 						>
-							Tea Mi Pet
+							Tea Mi Pet Store
 						</a>
 						<p className="text-gray-300 mb-6">
 							Thiên đường cho thú cưng của bạn với dịch vụ chăm sóc chuyên
@@ -18,7 +18,7 @@ const Footer = () => {
 						</p>
 						<div className="flex space-x-4">
 							<a
-								href="#"
+								href="https://www.facebook.com/Teamipetshopquan7"
 								className="w-10 h-10 bg-gray-500 bg-opacity-10 rounded-full flex items-center justify-center hover:bg-primary transition-all"
 							>
 								<FaFacebook className="text-white" />
@@ -30,7 +30,7 @@ const Footer = () => {
 								<FaInstagram className="text-white" />
 							</a>
 							<a
-								href="#"
+								href="https://www.tiktok.com/@tea.mi.pet.store"
 								className="w-10 h-10 bg-gray-500 bg-opacity-10 rounded-full flex items-center justify-center hover:bg-primary transition-all"
 							>
 								<FaTiktok className="text-white" />
