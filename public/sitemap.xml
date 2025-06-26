@@ -5,15 +5,15 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.teamipetstore.com/about</loc>
+    <loc>https://www.teamipetstore.com/gioi-thieu</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.teamipetstore.com/services</loc>
+    <loc>https://www.teamipetstore.com/dich-vu</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.teamipetstore.com/products</loc>
+    <loc>https://www.teamipetstore.com/san-pham</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -21,7 +21,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.teamipetstore.com/booking</loc>
-    <priority>0.6</priority>
+    <loc>https://www.teamipetstore.com/lien-he</loc>
+    <priority>0.8</priority>
   </url>
 </urlset>
