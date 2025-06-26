@@ -57,7 +57,7 @@ export default function RootLayout({
 	return (
 		<html lang="vi">
 			<link rel="url" href="https://teamipetstore.com" />
-			<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+			<link rel="icon" href="/favicon.ico" sizes="any" />
 			<body
 				className={`${nunito.variable} ${pacifico.variable} bg-white text-gray-800`}
 			>
