@@ -4,8 +4,7 @@ import { Nunito, Pacifico } from "next/font/google"; // ✅ Add this
 import "./globals.css";
 import { Header } from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
-import SEO from "@/components/custom/seo";
-
+import { GoogleAnalytics } from "@next/third-parties/google";
 const geistSans = Geist({
 	variable: "--font-geist-sans",
 	subsets: ["latin"],
@@ -64,6 +63,7 @@ export default function RootLayout({
 				<main className="">{children}</main>
 				<Footer />
 			</body>
+			<GoogleAnalytics gaId="G-P34LKJ0J8X" />
 		</html>
 	);
 }
