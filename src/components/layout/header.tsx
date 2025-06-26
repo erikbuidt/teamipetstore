@@ -18,19 +18,19 @@ export function Header() {
 	return (
 		<header className="fixed w-full bg-white shadow-sm z-50">
 			<div className="container mx-auto px-4 py-4 flex items-center justify-between">
-				<div className="flex justify-baseline items-center gap-2">
-					<img src="/images/logo.png" width={50} height={50} />
+				<div className="inline-flex gap-2">
+					<a href="/" className="flex  justify-baseline items-center gap-2">
+						<img src="/images/logo.png" width={50} height={50} />
 
-					<div className="inline-flex gap-2">
-						<a href="/" className="">
+						<span className="flex flex-col">
 							<span className="text-2xl text-primary font-pacifico font-bold">
 								Tea Mi
 							</span>
 							<span className="block text-sm text-black font-bold font-nunito ml-1">
 								Pet Store
 							</span>
-						</a>
-					</div>
+						</span>
+					</a>
 				</div>
 
 				<nav className="hidden md:flex items-center space-x-8">

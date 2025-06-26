@@ -1,3 +1,4 @@
+import { RiUser2Fill, RiCalendar2Line, RiPriceTag2Fill } from "react-icons/ri";
 export default function Page() {
 	return (
 		<div className="container xl:max-w-5xl mx-auto pt-24">
@@ -9,19 +10,19 @@ export default function Page() {
 				<div className="flex items-center text-gray-600 mb-6">
 					<div className="flex items-center mr-6">
 						<div className="w-8 h-8 flex items-center justify-center rounded-full bg-blue-100 mr-2">
-							<i className="ri-user-line text-primary"></i>
+							<RiUser2Fill />
 						</div>
 						<span>Trà Mi</span>
 					</div>
 					<div className="flex items-center mr-6">
 						<div className="w-8 h-8 flex items-center justify-center rounded-full bg-blue-100 mr-2">
-							<i className="ri-calendar-line text-primary"></i>
+							<RiCalendar2Line />
 						</div>
 						<span>25/06/2025</span>
 					</div>
 					<div className="flex items-center">
 						<div className="w-8 h-8 flex items-center justify-center rounded-full bg-blue-100 mr-2">
-							<i className="ri-price-tag-3-line text-primary"></i>
+							<RiPriceTag2Fill />
 						</div>
 						<span>Chăm sóc thú cưng</span>
 					</div>

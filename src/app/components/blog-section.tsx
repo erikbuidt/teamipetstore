@@ -15,7 +15,7 @@ const PetKnowledgeBlog = () => {
 			title: "5 Bước chăm sóc lông cho chó tại nhà đúng cách",
 			description:
 				"Hướng dẫn chi tiết cách chăm sóc lông cho chó tại nhà đảm bảo lông luôn mềm mượt và sạch sẽ.",
-			link: "/blog/cham-soc-thu-cung-trong-mua-he",
+			link: "/blog/nam-buoc-cham-soc-long-cho-cho-tai-nha-dung-cach",
 		},
 		{
 			id: 2,
@@ -28,7 +28,7 @@ const PetKnowledgeBlog = () => {
 			title: "Chăm Sóc Thú Cưng Trong Mùa Hè: Những Điều Cần Lưu Ý",
 			description:
 				"Hướng dẫn chi tiết cách chăm sóc lông cho chó tại nhà đảm bảo lông luôn mềm mượt và sạch sẽ.",
-			link: "/blog/nam-buoc-cham-soc-long-cho-cho-tai-nha-dung-cach",
+			link: "/blog/cham-soc-thu-cung-trong-mua-he",
 		},
 		{
 			id: 3,
