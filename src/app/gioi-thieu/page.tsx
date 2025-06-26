@@ -1,3 +1,6 @@
+import { FaArrowsToEye } from "react-icons/fa6";
+import { FaStar, FaHeart, FaMedal } from "react-icons/fa";
+import { MdOutlineLocalShipping } from "react-icons/md";
 export default function AboutUs() {
 	return (
 		<>
@@ -11,12 +14,12 @@ export default function AboutUs() {
 				<div className="container mx-auto px-6 relative h-full flex items-center">
 					<div className="text-white max-w-2xl">
 						<h1 className="text-5xl font-bold mb-6">
-							Giới thiệu về Pet Paradise
+							Giới thiệu về Tea Mi Pet Store
 						</h1>
 						<p className="text-xl leading-relaxed">
-							Pet Paradise là cửa hàng thú cưng hiện đại và thân thiện, chuyên
-							cung cấp các dịch vụ chăm sóc thú cưng cao cấp. Chúng tôi cam kết
-							mang đến trải nghiệm tốt nhất cho thú cưng của bạn.
+							Tea Mi Pet Store là cửa hàng thú cưng hiện đại và thân thiện,
+							chuyên cung cấp các dịch vụ chăm sóc thú cưng cao cấp. Chúng tôi
+							cam kết mang đến trải nghiệm tốt nhất cho thú cưng của bạn.
 						</p>
 					</div>
 				</div>
@@ -28,7 +31,7 @@ export default function AboutUs() {
 						{/* Vision Card */}
 						<div className="bg-[#D4F0E2] rounded-lg p-8 transform hover:scale-105 transition-transform duration-300 shadow-lg">
 							<div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-6">
-								<i className="fas fa-eye text-2xl text-[#FF9776]"></i>
+								<FaArrowsToEye />
 							</div>
 							<h3 className="text-2xl font-bold mb-4">Tầm nhìn</h3>
 							<p className="text-gray-700">
@@ -39,7 +42,7 @@ export default function AboutUs() {
 						{/* Mission Card */}
 						<div className="bg-[#FFE5D9] rounded-lg p-8 transform hover:scale-105 transition-transform duration-300 shadow-lg">
 							<div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-6">
-								<i className="fas fa-star text-2xl text-[#FF9776]"></i>
+								<FaStar />
 							</div>
 							<h3 className="text-2xl font-bold mb-4">Sứ mệnh</h3>
 							<p className="text-gray-700">
@@ -50,7 +53,7 @@ export default function AboutUs() {
 						{/* Values Card */}
 						<div className="bg-[#D4F0E2] rounded-lg p-8 transform hover:scale-105 transition-transform duration-300 shadow-lg">
 							<div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-6">
-								<i className="fas fa-heart text-2xl text-[#FF9776]"></i>
+								<FaHeart />
 							</div>
 							<h3 className="text-2xl font-bold mb-4">Giá trị cốt lõi</h3>
 							<p className="text-gray-700">
@@ -64,7 +67,7 @@ export default function AboutUs() {
 			<section className="py-20 bg-white">
 				<div className="container mx-auto px-6">
 					<h2 className="text-3xl font-bold text-center mb-12">
-						Tại sao chọn Pet Paradise?
+						Tại sao chọn Tea Mi Pet Store?
 					</h2>
 					<div className="grid md:grid-cols-2 gap-12 items-center">
 						<div className="relative h-[500px]">
@@ -77,7 +80,7 @@ export default function AboutUs() {
 						<div className="space-y-8">
 							<div className="flex items-start space-x-4">
 								<div className="w-12 h-12 bg-[#FFE5D9] rounded-full flex items-center justify-center flex-shrink-0">
-									<i className="fas fa-medal text-[#FF9776] text-xl"></i>
+									<FaMedal />
 								</div>
 								<div>
 									<h3 className="text-xl font-semibold mb-2">Chuyên môn cao</h3>
@@ -89,41 +92,39 @@ export default function AboutUs() {
 							</div>
 							<div className="flex items-start space-x-4">
 								<div className="w-12 h-12 bg-[#D4F0E2] rounded-full flex items-center justify-center flex-shrink-0">
-									<i className="fas fa-heart text-[#FF9776] text-xl"></i>
+									<FaHeart />
 								</div>
 								<div>
 									<h3 className="text-xl font-semibold mb-2">
 										Chăm sóc tận tâm
 									</h3>
 									<p className="text-gray-600">
-										Chúng tôi đối xử với thú cưng của bạn như thành viên trong
-										gia đình, đảm bảo sự thoải mái và an toàn tuyệt đối.
+										Con khách như con mình, đảm bảo sự thoải mái và an toàn
+										tuyệt đối.
 									</p>
 								</div>
 							</div>
 							<div className="flex items-start space-x-4">
 								<div className="w-12 h-12 bg-[#FFE5D9] rounded-full flex items-center justify-center flex-shrink-0">
-									<i className="fas fa-star text-[#FF9776] text-xl"></i>
+									<FaStar />
 								</div>
 								<div>
-									<h3 className="text-xl font-semibold mb-2">
-										Dịch vụ cao cấp
-									</h3>
+									<h3 className="text-xl font-semibold mb-2">Giá cả hợp lý</h3>
 									<p className="text-gray-600">
-										Cung cấp đầy đủ các dịch vụ từ spa, khách sạn đến các sản
-										phẩm chất lượng cao dành cho thú cưng.
+										Giá TỐT NHẤT trong khu vực quận 7.
 									</p>
 								</div>
 							</div>
 							<div className="flex items-start space-x-4">
 								<div className="w-12 h-12 bg-[#D4F0E2] rounded-full flex items-center justify-center flex-shrink-0">
-									<i className="fas fa-clock text-[#FF9776] text-xl"></i>
+									<MdOutlineLocalShipping />
 								</div>
 								<div>
-									<h3 className="text-xl font-semibold mb-2">Phục vụ 24/7</h3>
+									<h3 className="text-xl font-semibold mb-2">
+										Miễn phí đưa đón
+									</h3>
 									<p className="text-gray-600">
-										Luôn sẵn sàng phục vụ mọi lúc mọi nơi, đáp ứng mọi nhu cầu
-										chăm sóc thú cưng của bạn.
+										Miễn phí đưa đón trong bán kính 5km.
 									</p>
 								</div>
 							</div>
@@ -135,7 +136,7 @@ export default function AboutUs() {
 			<section className="py-20 bg-[#FFF8F5]">
 				<div className="container mx-auto px-6">
 					<h2 className="text-3xl font-bold text-center mb-12">
-						Không gian Pet Paradise
+						Không gian Tea Mi Pet Store
 					</h2>
 					<div className="grid md:grid-cols-3 gap-8">
 						<div className="rounded-lg overflow-hidden shadow-lg">

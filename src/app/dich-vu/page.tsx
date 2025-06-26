@@ -39,7 +39,7 @@ export default function Service() {
 						Các dịch vụ của chúng tôi
 					</h2>
 
-					<div className="flex justify-center mb-10">
+					<div className="justify-center mb-10 hidden md:flex">
 						<div className="inline-flex bg-gray-100 rounded-full p-1">
 							<button
 								onClick={() => setActiveTab("all")}
