@@ -38,6 +38,9 @@ export const metadata: Metadata = {
 			url: "https://teamipetstore.com",
 		},
 	],
+	alternates: {
+		canonical: "https://teamipetstore.com",
+	},
 	publisher: "Tea Mi Pet Store",
 	robots: "index, follow",
 	keywords:
@@ -53,9 +56,8 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="vi">
-			<link rel="canonical" href="https://teamipetstore.com" />
 			<link rel="url" href="https://teamipetstore.com" />
-
+			<link rel="icon" type="image/x-icon" href="/favicon.ico" />
 			<body
 				className={`${nunito.variable} ${pacifico.variable} bg-white text-gray-800`}
 			>
