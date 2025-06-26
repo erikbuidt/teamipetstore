@@ -30,7 +30,7 @@ const pacifico = Pacifico({
 });
 
 export const metadata: Metadata = {
-	title: "Tea Mi Pet Store",
+	title: "Dịch Vụ Spa, Khách Sạn, Phụ Kiện Thú Cưng Quận 7 | Tea Mi Pet Store",
 	openGraph: {},
 	authors: [
 		{
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
 	keywords:
 		"pet store, cửa hàng thú cưng, spa chó mèo, khách sạn thú cưng, Tea Mi Pet Store, phụ kiện thú cưng Quận 7",
 	description:
-		"Tea Mi Pet Store cung cấp dịch vụ thú cưng quận 7 chuyên nghiệp: spa, khách sạn, chăm sóc, và cửa hàng thú cưng với đa dạng sản phẩm cho chó mèo tại Quận 7.",
+		"Tea Mi Pet Store cung cấp spa, khách sạn, chăm sóc thú cưng và phụ kiện cho chó mèo tại Quận 7.",
 };
 
 export default function RootLayout({
@@ -64,6 +64,10 @@ export default function RootLayout({
 				<Footer />
 			</body>
 			<GoogleAnalytics gaId="G-P34LKJ0J8X" />
+			<script
+				src="//code.tidio.co/cfpjadkapvmjrjm165pll9vbrgr9wxwv.js"
+				async
+			></script>
 		</html>
 	);
 }
