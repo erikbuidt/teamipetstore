@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.teamipetstore.com/</loc>
+    <loc>https://teamipetstore.com/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.teamipetstore.com/gioi-thieu</loc>
+    <loc>https://teamipetstore.com/gioi-thieu</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.teamipetstore.com/dich-vu</loc>
+    <loc>https://teamipetstore.com/dich-vu</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.teamipetstore.com/san-pham</loc>
+    <loc>https://teamipetstore.com/san-pham</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.teamipetstore.com/blog</loc>
+    <loc>https://teamipetstore.com/blog</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.teamipetstore.com/lien-he</loc>
+    <loc>https://teamipetstore.com/lien-he</loc>
     <priority>0.8</priority>
   </url>
 </urlset>

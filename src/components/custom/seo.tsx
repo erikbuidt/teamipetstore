@@ -13,7 +13,7 @@ const defaultDescription = "Your one-stop pet care and product destination.";
 const defaultKeywords =
 	"pet, pet store, dog, cat, pet care, grooming, spa, hotel";
 const defaultImage = "/public/images/logo.png";
-const defaultUrl = "https://www.teamipetstore.com";
+const defaultUrl = "https://teamipetstore.com";
 
 export default function SEO({
 	title = defaultTitle,
