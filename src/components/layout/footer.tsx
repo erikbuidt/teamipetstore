@@ -1,6 +1,27 @@
+import { CiClock1 } from "react-icons/ci";
 import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
+import { IoLocationSharp } from "react-icons/io5";
+import { MdEmail, MdOutlinePhone } from "react-icons/md";
 
 const Footer = () => {
+	const contactInfo = [
+		{
+			icon: <IoLocationSharp className="text-primary" />,
+			title: "Địa chỉ",
+			content: "88 đường 11, Tân Kiểng, Quận 7, TP. Hồ Chí Minh",
+		},
+		{
+			icon: <MdOutlinePhone className="text-primary" />,
+			title: "Điện thoại",
+			content: "0909366197",
+		},
+		{
+			icon: <CiClock1 className="text-primary" />,
+			title: "Giờ mở cửa",
+			content: "Thứ 2 - Chủ nhật: 8:00 - 20:00",
+		},
+	];
+
 	return (
 		<footer className="bg-gray-800 text-white pt-16 pb-8">
 			<div className="container mx-auto px-4">
@@ -16,7 +37,20 @@ const Footer = () => {
 							Thiên đường cho thú cưng của bạn với dịch vụ chăm sóc chuyên
 							nghiệp và đầy yêu thương.
 						</p>
-						<div className="flex space-x-4">
+
+						{contactInfo.map((info, index) => (
+							<div
+								key={index}
+								className="flex items-center gap-2 mb-2 last:mb-0"
+							>
+								{info.icon}
+
+								<div>
+									<p className="text-white text-sm">{info.content}</p>
+								</div>
+							</div>
+						))}
+						<div className="flex space-x-4 mt-2">
 							<a
 								href="https://www.facebook.com/Teamipetshopquan7"
 								className="w-10 h-10 bg-gray-500 bg-opacity-10 rounded-full flex items-center justify-center hover:bg-primary transition-all"

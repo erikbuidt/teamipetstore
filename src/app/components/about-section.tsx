@@ -48,14 +48,14 @@ export default function AboutSection() {
 								Chúng tôi yêu thương thú cưng như bạn
 							</h3>
 							<p className="mb-6">
-								Tea Mi Pet được thành lập vào năm 2015 với mục tiêu mang đến
-								dịch vụ chăm sóc thú cưng chất lượng cao nhất tại Việt Nam. Với
-								đội ngũ nhân viên giàu kinh nghiệm và yêu thương động vật, chúng
-								tôi cam kết mang đến trải nghiệm tuyệt vời cho thú cưng của bạn.
+								Tea Mi Pet được thành lập vào năm 2024 với mục tiêu mang đến
+								dịch vụ chăm sóc thú cưng chất lượng cao tại Quận 7. Với đội ngũ
+								nhân viên giàu kinh nghiệm và yêu thương thú cưng, chúng tôi cam
+								kết mang đến trải nghiệm tuyệt vời cho bé cưng của bạn.
 							</p>
 							<p className="mb-8">
-								Sứ mệnh của chúng tôi là tạo ra một không gian an toàn, thoải
-								mái và vui vẻ cho thú cưng, nơi chúng được chăm sóc như thành
+								Sứ mệnh của Tea Mi Pet là tạo ra một không gian an toàn, thoải
+								mái và vui vẻ cho thú cưng, nơi các beá được chăm sóc như thành
 								viên trong gia đình.
 							</p>
 							<div className="grid grid-cols-2 gap-6">

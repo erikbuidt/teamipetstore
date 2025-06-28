@@ -212,7 +212,6 @@ export default function Service() {
 									/>
 								</div>
 							</div>
-
 							<div className="bg-white rounded-lg shadow-md overflow-hidden">
 								<div className="overflow-x-auto">
 									<table className="w-full">
@@ -278,6 +277,161 @@ export default function Service() {
 							</div>
 						</div>
 					)}
+					<div
+						id="spaDetail"
+						className="bg-white rounded-xl shadow-lg p-8 mb-12"
+					>
+						<h3 className="text-2xl font-bold mb-8 text-center">
+							Quy Trình Spa & Làm Đẹp 12 Bước
+						</h3>
+
+						<div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+							<div className="relative pl-16 pb-8 timeline-step">
+								<div className="timeline-connector"></div>
+								<div className="absolute left-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center z-10">
+									<span className="font-bold text-primary">1</span>
+								</div>
+								<h4 className="font-bold text-lg mb-1">
+									Tiếp nhận và kiểm tra
+								</h4>
+								<p className="text-gray-600">
+									Kiểm tra kỹ tình trạng da và lông của thú cưng
+								</p>
+							</div>
+
+							<div className="relative pl-16 pb-8 timeline-step">
+								<div className="timeline-connector"></div>
+								<div className="absolute left-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center z-10">
+									<span className="font-bold text-primary">2</span>
+								</div>
+								<h4 className="font-bold text-lg mb-1">
+									Vệ sinh, cạo lông tay, chân
+								</h4>
+								<p className="text-gray-600">
+									Làm sạch và cạo lông ở các vùng tay, chân
+								</p>
+							</div>
+
+							<div className="relative pl-16 pb-8 timeline-step">
+								<div className="timeline-connector"></div>
+								<div className="absolute left-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center z-10">
+									<span className="font-bold text-primary">3</span>
+								</div>
+								<h4 className="font-bold text-lg mb-1">
+									Vệ sinh, cạo lông bụng, hậu môn
+								</h4>
+								<p className="text-gray-600">
+									Làm sạch kỹ vùng bụng và hậu môn
+								</p>
+							</div>
+
+							<div className="relative pl-16 pb-8 timeline-step">
+								<div className="timeline-connector"></div>
+								<div className="absolute left-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center z-10">
+									<span className="font-bold text-primary">4</span>
+								</div>
+								<h4 className="font-bold text-lg mb-1">Vệ sinh tai</h4>
+								<p className="text-gray-600">Nhổ lông tai, ngoáy tai sạch sẽ</p>
+							</div>
+
+							<div className="relative pl-16 pb-8 timeline-step">
+								<div className="timeline-connector"></div>
+								<div className="absolute left-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center z-10">
+									<span className="font-bold text-primary">5</span>
+								</div>
+								<h4 className="font-bold text-lg mb-1">Cắt và mài móng</h4>
+								<p className="text-gray-600">
+									Cắt móng đúng kỹ thuật và mài láng móng
+								</p>
+							</div>
+
+							<div className="relative pl-16 pb-8 timeline-step">
+								<div className="timeline-connector"></div>
+								<div className="absolute left-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center z-10">
+									<span className="font-bold text-primary">6</span>
+								</div>
+								<h4 className="font-bold text-lg mb-1">Chải bung lông</h4>
+								<p className="text-gray-600">
+									Chải lông kỹ để loại bỏ lông rụng và gỡ rối
+								</p>
+							</div>
+
+							<div className="relative pl-16 pb-8 timeline-step">
+								<div className="timeline-connector"></div>
+								<div className="absolute left-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center z-10">
+									<span className="font-bold text-primary">7</span>
+								</div>
+								<h4 className="font-bold text-lg mb-1">
+									Tắm với sữa tắm chuyên dụng
+								</h4>
+								<p className="text-gray-600">
+									Sử dụng sữa tắm cao cấp phù hợp với từng loại da và lông
+								</p>
+							</div>
+
+							<div className="relative pl-16 pb-8 timeline-step">
+								<div className="timeline-connector"></div>
+								<div className="absolute left-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center z-10">
+									<span className="font-bold text-primary">8</span>
+								</div>
+								<h4 className="font-bold text-lg mb-1">
+									Xả với dầu xả chuyên dụng
+								</h4>
+								<p className="text-gray-600">
+									Sử dụng dầu xả cao cấp giúp lông mềm mượt
+								</p>
+							</div>
+
+							<div className="relative pl-16 pb-8 timeline-step">
+								<div className="timeline-connector"></div>
+								<div className="absolute left-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center z-10">
+									<span className="font-bold text-primary">9</span>
+								</div>
+								<h4 className="font-bold text-lg mb-1">Sấy khô</h4>
+								<p className="text-gray-600">
+									Sấy lông khô hoàn toàn với nhiệt độ phù hợp
+								</p>
+							</div>
+
+							<div className="relative pl-16 pb-8 timeline-step">
+								<div className="timeline-connector"></div>
+								<div className="absolute left-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center z-10">
+									<span className="font-bold text-primary">10</span>
+								</div>
+								<h4 className="font-bold text-lg mb-1">Chải bung lông lần 2</h4>
+								<p className="text-gray-600">
+									Chải lông lần cuối để tạo độ phồng và mềm mượt
+								</p>
+							</div>
+
+							<div className="relative pl-16 pb-8 timeline-step">
+								<div className="timeline-connector"></div>
+								<div className="absolute left-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center z-10">
+									<span className="font-bold text-primary">11</span>
+								</div>
+								<h4 className="font-bold text-lg mb-1">
+									Tỉa gọn lông mắt, miệng
+								</h4>
+								<p className="text-gray-600">
+									Tỉa lông mắt, miệng tạo vẻ gọn gàng, sạch sẽ
+								</p>
+							</div>
+
+							<div className="relative pl-16 pb-8 timeline-step">
+								<div className="timeline-connector"></div>
+								<div className="absolute left-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center z-10">
+									<span className="font-bold text-primary">12</span>
+								</div>
+								<h4 className="font-bold text-lg mb-1">
+									Bôi tinh dầu dưỡng lông
+								</h4>
+								<p className="text-gray-600">
+									Hoàn thiện với tinh dầu dưỡng lông cao cấp, giúp lông bóng
+									mượt và thơm lâu
+								</p>
+							</div>
+						</div>
+					</div>
 
 					{/* Pet Hotel Details */}
 					{(activeTab === "all" || activeTab === "hotel") && (

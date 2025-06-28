@@ -1,5 +1,5 @@
 import { FaArrowsToEye } from "react-icons/fa6";
-import { FaStar, FaHeart, FaMedal } from "react-icons/fa";
+import { FaStar, FaHeart, FaMedal, FaBath } from "react-icons/fa";
 import { MdOutlineLocalShipping } from "react-icons/md";
 export default function AboutUs() {
 	return (
@@ -35,8 +35,9 @@ export default function AboutUs() {
 							</div>
 							<h3 className="text-2xl font-bold mb-4">Tầm nhìn</h3>
 							<p className="text-gray-700">
-								Trở thành chuỗi cửa hàng thú cưng hàng đầu Việt Nam, mang đến
-								dịch vụ chất lượng cao và trải nghiệm tuyệt vời.
+								Trở thành cửa hàng thú cưng uy tín hàng đầu Quận 7, mang đến
+								dịch vụ chất lượng cao và trải nghiệm tuyệt vời cho thú cưng của
+								bạn
 							</p>
 						</div>
 						{/* Mission Card */}
@@ -46,8 +47,9 @@ export default function AboutUs() {
 							</div>
 							<h3 className="text-2xl font-bold mb-4">Sứ mệnh</h3>
 							<p className="text-gray-700">
-								Cung cấp dịch vụ Spa, thức ăn, phụ kiện, khách sạn thú cưng chất
-								lượng cao, đảm bảo sự hài lòng tuyệt đối.
+								Sứ mệnh của Tea Mi Pet là tạo ra một không gian an toàn, thoải
+								mái và vui vẻ cho thú cưng, nơi các beá được chăm sóc như thành
+								viên trong gia đình.
 							</p>
 						</div>
 						{/* Values Card */}
@@ -83,7 +85,9 @@ export default function AboutUs() {
 									<FaMedal />
 								</div>
 								<div>
-									<h3 className="text-xl font-semibold mb-2">Chuyên môn cao</h3>
+									<h3 className="text-xl font-semibold mb-2">
+										Professional Pet Care
+									</h3>
 									<p className="text-gray-600">
 										Đội ngũ nhân viên được đào tạo chuyên nghiệp, có nhiều năm
 										kinh nghiệm trong lĩnh vực chăm sóc thú cưng.
@@ -99,8 +103,9 @@ export default function AboutUs() {
 										Chăm sóc tận tâm
 									</h3>
 									<p className="text-gray-600">
-										Con khách như con mình, đảm bảo sự thoải mái và an toàn
-										tuyệt đối.
+										Xem thú cưng của khách như con mình, đảm bảo sự thoải mái và
+										an toàn tuyệt đối. Giá cả hợp lý Giá TỐT NHẤT trong khu vực
+										quận 7.
 									</p>
 								</div>
 							</div>
@@ -124,8 +129,19 @@ export default function AboutUs() {
 										Miễn phí đưa đón
 									</h3>
 									<p className="text-gray-600">
-										Miễn phí đưa đón trong bán kính 5km.
+										Miễn phí đưa đón trong bán kính 3km.
 									</p>
+								</div>
+							</div>
+							<div className="flex items-start space-x-4">
+								<div className="w-12 h-12 bg-[#D4F0E2] rounded-full flex items-center justify-center flex-shrink-0">
+									<FaBath />
+								</div>
+								<div>
+									<h3 className="text-xl font-semibold mb-2">
+										Dịch vụ Spa Grooming
+									</h3>
+									<p className="text-gray-600">Spa tắm vệ sinh 12 bước</p>
 								</div>
 							</div>
 						</div>

@@ -15,7 +15,7 @@ export default function HeroSection() {
 				<div className="max-w-xl">
 					<FadeInStaggered className="" delay={500}>
 						<h1 className="text-4xl md:text-5xl lg:text-6xl text-white font-bold mb-6 leading-tight">
-							Dịch vụ thú cưng toàn diện - mọi điều các bé cần
+							Dịch vụ thú cưng toàn diện - Mỗi bé chó mèo là một Phép Màu
 						</h1>
 					</FadeInStaggered>
 
