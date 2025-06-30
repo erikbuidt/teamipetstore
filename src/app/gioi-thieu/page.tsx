@@ -48,7 +48,7 @@ export default function AboutUs() {
 							<h3 className="text-2xl font-bold mb-4">Sứ mệnh</h3>
 							<p className="text-gray-700">
 								Sứ mệnh của Tea Mi Pet là tạo ra một không gian an toàn, thoải
-								mái và vui vẻ cho thú cưng, nơi các beá được chăm sóc như thành
+								mái và vui vẻ cho thú cưng, nơi các bé được chăm sóc như thành
 								viên trong gia đình.
 							</p>
 						</div>
